@@ -46,7 +46,7 @@ export default function HangmanPage() {
   useEffect(() => {
     if (hangmanState === 7) {
       setMessage(<div>
-      <p>Perdeu :("</p>
+      <p>Perdeu :(</p>
       <p style={{ fontSize: "14px" }}>A palavra era:</p>
       <p style={{ color: "red", fontWeight: "bold" }}>
         {currentWord.word.toUpperCase()}
@@ -57,7 +57,7 @@ export default function HangmanPage() {
       setMessage(`Ganhou!!!
       A palavra é: ${currentWord.word.toUpperCase()}`);
     }
-  }, [hangmanState, displayedWord, wordLetters]);
+  }, [hangmanState, displayedWord, wordLetters, currentWord.word]);
 
   return (
     <div className={styles.container}>
