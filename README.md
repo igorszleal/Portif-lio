@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Igor Leal - Portfólio & Jogo da Forca
+
+Este projeto é um **portfólio pessoal** desenvolvido com **Next.js**, que inclui informações sobre formação, habilidades, contatos e hobbies, além de um **Jogo da Forca** interativo como projeto extra.
+
+O objetivo é mostrar meus conhecimentos em desenvolvimento web, React, Next.js e CSS, e também criar uma aplicação divertida para prática de lógica e interação com o usuário.
+
+## Tecnologias Utilizadas
+
+* **Next.js** – Framework React para aplicações web modernas.
+* **React** – Biblioteca JavaScript para interfaces.
+* **CSS / TailwindCSS** – Para estilização das páginas.
+* **Next/Image** – Otimização de imagens no Next.js.
+* **JavaScript (ES6+)** – Lógica do Jogo da Forca.
+
+## Funcionalidades
+
+### Página Principal
+
+* Apresentação pessoal com foto, nome e breve descrição.
+* Seção de **Dados Pessoais**, **Objetivo**, **Formação Acadêmica**, **Estágio**, **Habilidades**, **Idiomas** e **Hobbies**.
+* Links clicáveis para **LinkedIn** e **GitHub**.
+* Design responsivo, minimalista e elegante.
+
+### Jogo da Forca
+
+* Palavra aleatória selecionada de um conjunto pré-definido.
+* Letras já tentadas exibidas para controle do jogador.
+* Contador de tentativas restantes (7 tentativas).
+* Mensagens de vitória e derrota.
+* Botão para reiniciar o jogo a qualquer momento.
+* Exibição do boneco da forca conforme o número de erros.
+
+## Como Rodar Localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/igorszleal/seu-repositorio.git
+cd seu-repositorio
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+# ou
+yarn
+# ou
+pnpm install
+```
+
+3. Rode o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+/app
+  ├─ page.js          # Página principal
+  ├─ hangman.js       # Página do Jogo da Forca
+  ├─ words.js         # Palavras e dicas do jogo
+  ├─ page.module.css  # Estilização do jogo
+/globals.css           # Estilos globais
+```
 
-## Learn More
+## Deploy
 
-To learn more about Next.js, take a look at the following resources:
+O projeto pode ser facilmente deployado no **Vercel**. Basta conectar o repositório e o site estará online automaticamente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Vercel](https://vercel.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contato
 
-## Deploy on Vercel
+* **LinkedIn:** [https://www.linkedin.com/in/igorszleal](https://www.linkedin.com/in/igorszleal)
+* **GitHub:** [https://github.com/igorszleal](https://github.com/igorszleal)
+* **E-mail:** [igorleal014@gmail.com](mailto:igorleal014@gmail.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+

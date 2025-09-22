@@ -17,7 +17,7 @@ const words = [
   { word: "json", clue: "Formato de dados baseado em texto" },
   { word: "html", clue: "Linguagem de marcação para web" },
   { word: "css", clue: "Define o estilo de páginas web" },
-  { word: "javascript", clue: "Linguagem usada para web interativa" },
+  { word: "recursão", clue: "Função que chama a si mesma para resolver um problema" },
   { word: "protocolo", clue: "Conjunto de regras para comunicação de dados" },
   { word: "servidor", clue: "Computador que fornece recursos a outros na rede" },
   { word: "cliente", clue: "Computador que acessa recursos em um servidor" },

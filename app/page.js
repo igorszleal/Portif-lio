@@ -65,7 +65,7 @@ export default function Home() {
           <h2 className="card-title">Habilidades</h2>
           <p>Linguagens de Programação: Python, Java, C.</p>
           <p>HTML, CSS</p>
-          <p>Google Planilhas</p>
+          <p>Microsoft Excel, Google Planilhas</p>
         </div>
         
         {/* Cartão de Idiomas */}

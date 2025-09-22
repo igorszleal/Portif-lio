@@ -1,4 +1,4 @@
-  /* app/globals.css */
+ 
 
   @import "tailwindcss";
 
@@ -20,7 +20,7 @@
   align-items: center;
   min-height: 100vh;
   padding: 20px;
-  font-family: Arial, sans-serif; /* É bom adicionar uma fonte de fallback */
+  font-family: Arial, sans-serif; 
   text-align: center;
   background-color: #000000ff;
   color: #ffffffff;
@@ -42,8 +42,8 @@
 
   a.aBlue:hover {
     text-decoration: underline;
-    transform: scale(1.1); /* aumenta um pouco */
-    color: #238aff;        /* muda levemente a cor (opcional) */
+    transform: scale(1.1); 
+    color: #238aff;        
   }
 
   @media (prefers-color-scheme: dark) {
@@ -59,7 +59,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  /* Novos estilos para os cartões */
+ 
   .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

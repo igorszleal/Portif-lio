@@ -239,3 +239,30 @@
   color: #fff9f9; 
   margin-top: 9px;
 }
+
+.gallows, .bodyPart {
+  stroke: #f7f7f7;        /* cor da linha do boneco */
+  stroke-width: 4;
+  fill: none;
+  stroke-dasharray: 300;   /* comprimento aproximado da linha */
+  stroke-dashoffset: 300;  /* começa invisível */
+  transition: stroke-dashoffset 1s linear;
+}
+
+.visible {
+  stroke-dashoffset: 0;  /* desenha a linha */
+}
+
+/* Mantém a classe original do container para alinhamento */
+.hangmanDrawing {
+  width: 250px;
+  height: 250px;
+  margin-right: 50px;
+}
+
+.hangmanDrawingContainer {
+  position: relative; /* garante que o lápis fique dentro da área do article */
+  width: 300px;
+  height: 300px;
+}
+
